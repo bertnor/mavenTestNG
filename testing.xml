@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="nazwa suity">
+
+	<test name="nazwa testu">
+		<classes>
+			<class name="com.norbert.maven.myMavenProject.AppTest" />
+		</classes>
+	</test>
+	<test name="nazwa testu">
+		<parameter name="browser" value="defaultBrowser"></parameter>
+		<classes>
+			<class name="com.norbert.maven.myMavenProject.parameterTest" />
+		</classes>
+	</test>
+
+</suite>
